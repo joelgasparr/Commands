@@ -1,0 +1,13 @@
+Commands
+pwd : Ver en donde estoy
+cd : Abrir 
+cd .. : Regresar
+ls : Ver que hay en el archivo
+git status : Ver el estado 
+git diff : Ver las modfificaciones 
+git difftool : Ver graficamente las modificaciones 
+CTRL + C : Regresar a la normalidad 
+mate : Editar el archivo 
+git commit : Confirmar cambios
+git pull : Actualizar 
+git push : Subir 
