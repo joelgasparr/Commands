@@ -21,3 +21,4 @@ vi : Abrir archivo en terminal
 echo : escribir en un archivo 
 touch : crea archivo 
 mkdir : crea directorio 
+git merge : fusionar ramas locales
