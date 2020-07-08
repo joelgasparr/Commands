@@ -13,7 +13,7 @@ git pull : Actualizar
 git push : Subir 
 git branch : Enlista las Ramas y la que tenga asterisco es en donde estoy
 git checkout -b : nueva rama
-git checkout -d : borer Rama local
+git branch -d : borar Rama local
 git remote add origin : subir proyecto a un repositorio nuevo
 git init : iniciar con git el proyecto 
 git add : agregar archivos al stage
