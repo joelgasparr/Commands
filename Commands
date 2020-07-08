@@ -22,3 +22,4 @@ echo : escribir en un archivo
 touch : crea archivo 
 mkdir : crea directorio 
 git merge : fusionar ramas locales
+git mergetool : ver gráficamente el conflicto en la fusion de las ramas
