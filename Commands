@@ -4,7 +4,7 @@ cd : Abrir
 cd .. : Regresar
 ls : Ver que hay en el archivo
 git status : Ver el estado 
-git diff : Ver las modfificaciones 
+git diff : Ver las modificaciones 
 git difftool : Ver graficamente las modificaciones 
 CTRL + C : Regresar a la normalidad 
 mate : Editar el archivo 
@@ -13,7 +13,7 @@ git pull : Actualizar
 git push : Subir 
 git branch : Enlista las Ramas y la que tenga asterisco es en donde estoy
 git checkout -b : nueva rama
-git branch -d : borar Rama local
+git branch -d : borrar Rama local
 git remote add origin : subir proyecto a un repositorio nuevo
 git init : iniciar con git el proyecto 
 git add : agregar archivos al stage
@@ -23,3 +23,5 @@ touch : crea archivo
 mkdir : crea directorio 
 git merge : fusionar ramas locales
 git mergetool : ver gráficamente el conflicto en la fusion de las ramas
+git fetch : actualiza las referencias entre el repositorio remoto y el repositorio local
+git rebase : fusionar ramas locales pero borra el historial de nuestros commits realizados
