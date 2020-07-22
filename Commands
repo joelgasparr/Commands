@@ -16,7 +16,8 @@ git checkout -b : nueva rama
 git branch -d : borrar Rama local
 git remote add origin : subir proyecto a un repositorio nuevo
 git init : iniciar con git el proyecto 
-git add : agregar archivos al stage
+git add : agregar un archivo al stage
+git add . : agregar todos los archivos al stage
 vi : Abrir archivo en terminal 
 echo : escribir en un archivo 
 touch : crea archivo 
@@ -25,3 +26,13 @@ git merge : fusionar ramas locales
 git mergetool : ver gráficamente el conflicto en la fusion de las ramas
 git fetch : actualiza las referencias entre el repositorio remoto y el repositorio local
 git rebase : fusionar ramas locales pero borra el historial de nuestros commits realizados
+git stash : guardar un cambio y seguir trabajando en otra cosa
+git stash (acción) stash@{N} : hacer la acción de un stash en especifico 
+git stash apply : aplicar un cambio en especifico 
+git stash list : ver los cambios realizados 
+git stash drop : eliminar el ultimo stash guardado
+git stash show : ver un cambio en especifico 
+git stash clear : borrar todos los stash
+git stash -u : guardar todos los archivos incluyendo los nuevos
+git stash branch : guardar los cambios en otra rama 
+
