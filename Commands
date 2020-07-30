@@ -35,4 +35,10 @@ git stash show : ver un cambio en especifico
 git stash clear : borrar todos los stash
 git stash -u : guardar todos los archivos incluyendo los nuevos
 git stash branch : guardar los cambios en otra rama 
-
+git tag : crear etiqueta 
+git tag --list : ver lista de etiquetas 
+git tag --delete : borrar etiqueta 
+git tag -a : etiqueta con mensaje 
+git tag -f : forzar una etiqueta a otro commit 
+git push origin --tags : subir todas las etiquetas 
+git push origin :(nombre de etiqueta) : borrar etiqueta en GitHub
