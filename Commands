@@ -42,3 +42,5 @@ git tag -a : etiqueta con mensaje
 git tag -f : forzar una etiqueta a otro commit 
 git push origin --tags : subir todas las etiquetas 
 git push origin :(nombre de etiqueta) : borrar etiqueta en GitHub
+git cherry-pick : hacer los commits de una rama en otra rama distinta 
+git cherry-pick --no-commit : agregar los cambios al stage de otra rama pero sin commit 
